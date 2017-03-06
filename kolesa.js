@@ -40,7 +40,7 @@ module.exports = class Kolesa
 		const { encode: e } = Entities;
 
 		const img = el.img
-			? `<img src="${e(el.img)}/>`
+			? `<img src="${e(el.img)}"/>`
 			: '';
 
 		return cfg.template

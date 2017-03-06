@@ -3,9 +3,10 @@ const _ = require('lodash');
 
 module.exports =
 {
-	cacheFile: './cache.json',
+	cacheFile: `${__dirname}/cache.json`,
 	cacheLifetime: 10 * 60 * 1000, // 10 minutes
-	log: console.log,
+	log: () => {},
+	// log: console.log,
 	maxPages: 3,
 	protocol: 'https',
 	domain: 'kolesa.kz',
@@ -27,7 +28,7 @@ module.exports =
 		pageCurrent: '.pager .active',
 		date: '.date'
 	},
-	template: fs.readFileSync('template.default.html').toString(),
+	template: fs.readFileSync(`${__dirname}/template.default.html`).toString(),
 	parseDate: dateS =>
 	{
 		const [day, monthS] = dateS.split(/\s+/);
