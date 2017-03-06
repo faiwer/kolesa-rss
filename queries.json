@@ -1,0 +1,30 @@
+{
+	"outback25":
+	{
+		"type": "cars",
+		"vendor": "subaru",
+		"body": "station-wagon",
+		"model": "outback",
+		"city": "almaty",
+		"auto-emergency": "1",
+		"auto-car-transm": "2345",
+		"auto-car-order": "1",
+		"year[from]": "2001",
+		"year[to]": "2008",
+		"auto-car-volume[to]": "2.5"
+	},
+	"outback30":
+	{
+		"type": "cars",
+		"vendor": "subaru",
+		"body": "station-wagon",
+		"model": "outback",
+		"city": "almaty",
+		"auto-emergency": "1",
+		"auto-car-transm": "2345",
+		"auto-car-order": "1",
+		"year[from]": "2001",
+		"year[to]": "2008",
+		"auto-car-volume[from]": "3"
+	}
+}

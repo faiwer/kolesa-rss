@@ -1,0 +1,16 @@
+{
+  "name": "kolesa-rss",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "author": "faiwer",
+  "license": "MIT",
+  "dependencies": {
+    "fs-promise": "^2.0.0",
+    "html-entities": "^1.2.0",
+    "request": "^2.80.0",
+    "request-promise": "^4.1.1",
+    "rss": "^1.2.2",
+    "whacko": "^0.19.1"
+  }
+}

@@ -1,0 +1,6 @@
+*.html
+config.js
+template*
+!template.default.html
+node_modules
+cache.json
