@@ -66,7 +66,7 @@ module.exports = class Kolesa
 				{
 					title: el.title,
 					description: this._feedHTML(el),
-					url: el.link,
+					url: `${cfg.protocol}://${cfg.domain}${el.link}`,
 					date: el.date.pubDate
 				});
 
