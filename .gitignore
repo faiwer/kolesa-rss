@@ -4,3 +4,4 @@ template*
 !template.default.html
 node_modules
 cache.json
+queries.json
